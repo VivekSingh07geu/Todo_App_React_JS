@@ -1,3 +1,13 @@
+
+# Live App Link 
+  https://todo-app-ce1fd.web.app/ 
+
+# Overview 
+
+This App is used to maintain our day-to-day tasks or list everything that we have to do,with the most recent tasks at the top of the list.
+It is helpful in planning our daily schedules.We can add more tasks at any time and delete a task that is completed.
+It is a regular offline app. Hitting the refresh button not cause any changes.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
