@@ -1,0 +1,169 @@
+.main__div{
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    background: url("../bg_wallpaper.jpg") center center / cover no-repeat fixed;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0; 
+    z-index: -1;
+}
+
+.left {
+    margin-left: 75px;
+    width: 50%;
+}
+
+.heading {
+    font-family: "Marriweather Sans", "sans-serif";
+    color: lavender;
+    font-weight: bolder;
+    font-size: 120px;
+    border-bottom: 2px solid white;
+    margin-bottom: -10px;
+}
+
+.sub__heading {
+    font-family: "Marriweather Sans", "sans-serif";
+    color:  lavender;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 0.5px;;
+}
+
+
+.addItem > input {
+    width: 300px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 5px 12px;
+    line-height: 20px;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    outline: none;
+}
+
+.left-btn {
+    display: flex;
+    margin-top: 20px;
+}
+
+.addItem > button {
+    margin-left: 25px;
+    border: 1px solid #f9f9f9;
+    width: auto;
+    padding: 8px 16px;
+    border-radius: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    color: black;
+    background-color: red;
+        color: white;
+    box-shadow: rgb(255 0 0 / 69%) 0px 0px 20px 5px,
+        rgb(0 0 0 / 73%) 0px 0px 0px 0px;
+        border-color: transparent;
+}
+
+.addItem > button:hover{
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.clear__all {
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.btn2 {
+    border: 2px solid red;
+    padding: 8px 16px;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background-color: black;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    color: white;
+}
+
+.btn2:hover{
+    background-color: #f9f9f9;
+    color: #000;
+    border-color: transparent;
+}
+
+/* Right */
+
+
+.right{
+    margin-top: 100px;
+    width: 800px;
+    height: 570px;
+    overflow: hidden;
+    position: relative;
+}
+
+.showItem{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: -20px; /* Increase/Decrease this value for cross-browser compatibility */
+    overflow-y: scroll;
+}
+
+.eachItem {
+    display: flex;
+    width: auto;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.wrap{
+    border-radius: 10px;
+    height: 70px;
+    width: 350px;
+    box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
+                rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+    transition: all 250ms cubic-bezier(0.25 , 0.46 , 0.45 , 0.94) 0s;
+    margin-left: 170px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    /* gradient */
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.wrap:hover{
+    transform: scale(1.10);
+}
+
+.content {
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.delete__icon {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.delete__icon:hover{
+    color: lawngreen;
+}
+
+
